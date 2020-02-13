@@ -11,10 +11,10 @@ package game;
  */
 public class Monster {
     public static class Name {
-        String[] monsterName = {"Health Bar", "Mana Bar", "Attack", "Defense", "Level"};
+        String[] monsterName = {"Monster Health Bar", "Monster Mana Bar", "Attack", "Defense", "Level"};
     }
 
     public static class Value {
-        int[] monsterValue = {50, 100, 20, 20, 1};
+        int[] monsterValue = {100, 100, 20, 20, 1};
     }
 }

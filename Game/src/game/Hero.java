@@ -11,10 +11,10 @@ package game;
  */
 public class Hero {
     public static class Name {
-        String[] heroName = {"Health Bar", "Mana Bar", "Attack", "Defense", "Level"};
+        String[] heroName = {"Hero Health Bar", "Hero Mana Bar", "Attack", "Defense", "Level"};
     }
 
     public static class Value {
-        int[] heroValue ={100, 100, 40, 40, 1};
+        int[] heroValue ={100, 100, 20, 40, 1};
     }
 }
