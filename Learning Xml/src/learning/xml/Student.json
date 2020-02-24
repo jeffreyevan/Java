@@ -1,11 +1,13 @@
-{"Class":
-    {"student1":
-        [{"id":"000001","firstname":"Jeffrey","lastname":"Evan","subject":"Math","marks":"90"}],
-    "student2":
-        [{"id":"000002","firstname":"Jennifer","lastname":"Nathania","subject":"Chemistry","marks":"70"}],
-    "student3":
-        [{"id":"000003","firstname":"Eddy","lastname":"Saputra","subject":"Physics","marks":"85"}],
-    "student4":
-        [{"id":"000004","firstname":"Jessica","lastname":"Yuliani","subject":"Biology","marks":"92"}]
+{
+  "Class":
+    {
+      "student":
+        {
+          "id":["000001","000002","000003","000004"],
+          "firstname":["Jeffrey","Jennifer","Eddy","Jessica"],
+          "lastname":["Evan","Nathania","Saputra","Yuliani"],
+          "subject":["Math","Chemistry","Physics","Biology"],
+          "marks":["90","70","85","92"]
+        }
     }
 }
